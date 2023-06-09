@@ -1,0 +1,127 @@
+@import url("fonts.css");
+@import url("reset.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+header.h-header {
+}
+.banner img {
+  /* height: 50px; */
+  /* background-color: orange; */
+  width: 100%;
+}
+.middle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+}
+.right-m-header {
+  width: 43%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-m-header .logo {
+  display: flex;
+  align-items: center;
+}
+.search-box {
+  width: 81%;
+  position: relative;
+}
+.search-box i {
+  position: absolute;
+  top: 27%;
+  right: 3%;
+}
+.search-box input {
+  padding: 10px 9%;
+  width: 81.5%;
+  border: none;
+  background-color: #f1f2f4;
+  height: 23px;
+  border-radius: 7px;
+}
+.search-box input:focus-visible {
+  outline: none;
+}
+
+.left-m-header {
+  display: flex;
+  align-items: center;
+}
+.register-box {
+  display: flex;
+  align-items: center;
+  padding: 7px 15px;
+  border: 1px solid #eee;
+  border-radius: 7px;
+}
+.register-box a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+}
+.register-icon {
+  font-size: 17pt;
+}
+.checkout-box {
+  padding: 0 30px;
+  position: relative;
+}
+.cart-box {
+  display: none;
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 14%), 0 4px 8px rgb(0 0 0 / 30%);
+  background: white;
+  left: 32px;
+  border-radius: 12px;
+  top: 41px;
+}
+.checkout-box:hover  .cart-box {
+  display: block;
+}
+.cart-icon {
+  font-size: 17pt;
+}
+.f-header {
+  background-color: dodgerblue;
+  height: 40px;
+}
+.navbar {
+  display: flex;
+  position: relative;
+  padding: 0 5%;
+}
+.super-menu {
+}
+.super-menu:hover .sub-menu {
+  display: block;
+}
+.nav-item {
+  display: inline-block;
+  padding: 10px;
+}
+.sub-menu {
+  position: absolute;
+  background: red;
+  height: 500px;
+  width: 80%;
+  top: 40px;
+  right: 5%;
+  display: none;
+}
+main {
+  background-color: pink;
+  height: 800px;
+}
+.top-slider img {
+  width: 100%;
+}
+
+footer {
+  background-color: gray;
+  height: 300px;
+}

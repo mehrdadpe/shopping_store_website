@@ -1,0 +1,14 @@
+
+
+*{
+  font-family: Tahoma;
+}
+
+body {
+  margin: 0;
+  direction: rtl;
+
+}
+a{
+  display: inline-block;
+}
