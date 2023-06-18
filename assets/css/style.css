@@ -117,6 +117,20 @@ main {
   background-color: pink;
   height: 800px;
 }
+.stories{
+  display: flex;
+  padding: 30px;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+.story{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  border: 7px double red;
+}
 .top-slider img {
   width: 100%;
 }
