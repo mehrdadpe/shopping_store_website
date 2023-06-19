@@ -122,7 +122,7 @@ main {
   padding: 30px;
   width: 80%;
   margin: auto;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .story{
   width: 70px;
